@@ -1,7 +1,7 @@
 $downloadUrl = "https://github.com/Romanitho/Winget-AutoUpdate/releases/latest/download/WAU.zip"
 $zipFile = "$PWD\WAU.zip"
 $extractPath = "$PWD\WAU"
-$installScript = "$extractPath\test.bat"
+$installScript = "$extractPath\install.bat"
 
 # Download the ZIP file
 Invoke-WebRequest -Uri $downloadUrl -OutFile $zipFile
